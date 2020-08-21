@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 970px;
+	background: linear-gradient(rgb(69, 43, 63), rgb(146, 97, 135), rgb(69, 43, 63));
+	margin: 0 auto;
+	height: 1050px;
+	font-family: sans-serif;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: whitesmoke;
+	padding: 10px 20px;
+}
+h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: 600;
+}
+main {
+	padding: 20px;
+}
+
+.top-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	margin: 10px;
+}
+
+.top-section img {
+	flex: 1;
+	height: auto;
+	border: 5px solid rgb(212, 209, 209);
+}
+.about {
+	flex: 1;
+	margin-left: 20px;
+	background: linear-gradient(to right, white, rgb(226, 210, 210));
+}
+.about h3 {
+	background: linear-gradient(#aaaaaa, #555555, #aaaaaa);
+	color: rgb(240, 234, 234);
+	padding: 10px;
+}
+.about p {
+	margin: 10px;
+}
+/*portfolio items*/
+.portfolio-items {
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.items {
+	margin: 10px;
+	background: linear-gradient(to right, white, rgb(226, 210, 210));
+}
+.description {
+	min-height: 380px;
+}
+.items h3 {
+	background: linear-gradient(#aaaaaa, #555555, #aaaaaa);
+	color: rgb(240, 234, 234);
+	padding: 10px;
+}
+.project-img {
+	width: auto;
+	height: 162px;
+}
+.items h4 {
+	background: linear-gradient(#aaaaaa, #555555, #aaaaaa);
+	color: rgb(240, 234, 234);
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.icon {
+	width: auto;
+	height: 40px;
+	padding: 0 5px;
+}
+.b-center {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(68, 95, 68);
+	border: 1px solid rgb(54, 54, 54);
+	border-radius: 12px;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	margin: 20px 15px;
+	filter: drop-shadow(3px 5px 3px #555);
+}
+.items p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+}
+/*footer*/
+
+footer {
+	background-color: whitesmoke;
+	font-weight: 300;
+}
+
+footer img {
+	width: auto;
+	height: 20px;
+	vertical-align: middle;
+}
+
+footer a {
+	color: black;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.contact-me {
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
